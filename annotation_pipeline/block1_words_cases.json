@@ -1,0 +1,893 @@
+{
+  "meta": {
+    "block": 1,
+    "approach": "падежные парадигмы извлечены из корпуса; покрытие падежей жадным алгоритмом",
+    "cases_covered_by_models": [
+      "Abl",
+      "All",
+      "Com",
+      "Dat",
+      "Equ",
+      "Gen",
+      "Nom",
+      "Sup"
+    ],
+    "cases_total": 8,
+    "distractor_note": "options для translate_word не фиксируются: бот берёт 3 дистрактора из distractor_pool среди уже показанных пользователю слов"
+  },
+  "block": {
+    "id": 1,
+    "title": "Введение в падежи",
+    "title_os": "Хауӕнтимӕ зонгӕ кӕнын",
+    "words": [
+      {
+        "id": "b1_01",
+        "lemma": "аз",
+        "pos": "NOUN",
+        "freq": 14401,
+        "trans_ru": "год",
+        "paradigm": [
+          {
+            "case": "Nom",
+            "form": "аз",
+            "ending": "—",
+            "function": "словарная форма, подлежащее: «кто? что?»"
+          },
+          {
+            "case": "Gen",
+            "form": "азы",
+            "ending": "-ы",
+            "function": "принадлежность: «чей? чего?»"
+          },
+          {
+            "case": "Dat",
+            "form": "азтӕн",
+            "ending": "-ӕн",
+            "function": "адресат: «кому?»"
+          },
+          {
+            "case": "All",
+            "form": "азмӕ",
+            "ending": "-мӕ",
+            "function": "направление: «к, в (куда)»"
+          },
+          {
+            "case": "Abl",
+            "form": "азӕй",
+            "ending": "-ӕй",
+            "function": "источник/средство: «от, из, чем?»"
+          },
+          {
+            "case": "Sup",
+            "form": "азыл",
+            "ending": "-ыл",
+            "function": "на поверхности: «на (ком/чём)»"
+          },
+          {
+            "case": "Com",
+            "form": "азтимӕ",
+            "ending": "-имӕ",
+            "function": "совместность: «с (кем)»"
+          },
+          {
+            "case": "Equ",
+            "form": "азтау",
+            "ending": "-ау",
+            "function": "уподобление: «как, подобно»"
+          }
+        ],
+        "distractor_pool": [
+          {
+            "lemma": "фиппаинаг",
+            "trans_ru": "оговорка, примечание"
+          },
+          {
+            "lemma": "сахар",
+            "trans_ru": "город"
+          },
+          {
+            "lemma": "район",
+            "trans_ru": "район"
+          },
+          {
+            "lemma": "мыггаг",
+            "trans_ru": "род, фамилия"
+          },
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "селение"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "центр",
+            "trans_ru": "центр"
+          },
+          {
+            "lemma": "облӕст",
+            "trans_ru": "область"
+          },
+          {
+            "lemma": "адӕм",
+            "trans_ru": "народ, люди; население"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "цӕугӕдон",
+            "trans_ru": "река"
+          }
+        ]
+      },
+      {
+        "id": "b1_02",
+        "lemma": "фиппаинаг",
+        "pos": "NOUN",
+        "freq": 11716,
+        "trans_ru": "оговорка, примечание",
+        "paradigm": [
+          {
+            "case": "Nom",
+            "form": "Фиппаинӕгтӕ",
+            "ending": "—",
+            "function": "словарная форма, подлежащее: «кто? что?»"
+          },
+          {
+            "case": "Gen",
+            "form": "фиппаинӕгты",
+            "ending": "-ы",
+            "function": "принадлежность: «чей? чего?»"
+          },
+          {
+            "case": "All",
+            "form": "фиппаинӕгтӕм",
+            "ending": "-мӕ",
+            "function": "направление: «к, в (куда)»"
+          },
+          {
+            "case": "Abl",
+            "form": "фиппаинӕгтӕй",
+            "ending": "-ӕй",
+            "function": "источник/средство: «от, из, чем?»"
+          },
+          {
+            "case": "Sup",
+            "form": "фиппаинӕгтыл",
+            "ending": "-ыл",
+            "function": "на поверхности: «на (ком/чём)»"
+          }
+        ],
+        "distractor_pool": [
+          {
+            "lemma": "сахар",
+            "trans_ru": "город"
+          },
+          {
+            "lemma": "аз",
+            "trans_ru": "год"
+          },
+          {
+            "lemma": "район",
+            "trans_ru": "район"
+          },
+          {
+            "lemma": "мыггаг",
+            "trans_ru": "род, фамилия"
+          },
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "селение"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "центр",
+            "trans_ru": "центр"
+          },
+          {
+            "lemma": "облӕст",
+            "trans_ru": "область"
+          },
+          {
+            "lemma": "адӕм",
+            "trans_ru": "народ, люди; население"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "цӕугӕдон",
+            "trans_ru": "река"
+          }
+        ]
+      },
+      {
+        "id": "b1_03",
+        "lemma": "сахар",
+        "pos": "NOUN",
+        "freq": 10690,
+        "trans_ru": "город",
+        "paradigm": [
+          {
+            "case": "Nom",
+            "form": "сахар",
+            "ending": "—",
+            "function": "словарная форма, подлежащее: «кто? что?»"
+          },
+          {
+            "case": "Gen",
+            "form": "сахары",
+            "ending": "-ы",
+            "function": "принадлежность: «чей? чего?»"
+          },
+          {
+            "case": "Dat",
+            "form": "сахартӕн",
+            "ending": "-ӕн",
+            "function": "адресат: «кому?»"
+          },
+          {
+            "case": "All",
+            "form": "сахармӕ",
+            "ending": "-мӕ",
+            "function": "направление: «к, в (куда)»"
+          },
+          {
+            "case": "Abl",
+            "form": "сахартӕй",
+            "ending": "-ӕй",
+            "function": "источник/средство: «от, из, чем?»"
+          },
+          {
+            "case": "Sup",
+            "form": "сахарыл",
+            "ending": "-ыл",
+            "function": "на поверхности: «на (ком/чём)»"
+          }
+        ],
+        "distractor_pool": [
+          {
+            "lemma": "фиппаинаг",
+            "trans_ru": "оговорка, примечание"
+          },
+          {
+            "lemma": "аз",
+            "trans_ru": "год"
+          },
+          {
+            "lemma": "район",
+            "trans_ru": "район"
+          },
+          {
+            "lemma": "мыггаг",
+            "trans_ru": "род, фамилия"
+          },
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "селение"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "центр",
+            "trans_ru": "центр"
+          },
+          {
+            "lemma": "облӕст",
+            "trans_ru": "область"
+          },
+          {
+            "lemma": "адӕм",
+            "trans_ru": "народ, люди; население"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "цӕугӕдон",
+            "trans_ru": "река"
+          }
+        ]
+      },
+      {
+        "id": "b1_04",
+        "lemma": "район",
+        "pos": "NOUN",
+        "freq": 6612,
+        "trans_ru": "район",
+        "paradigm": [
+          {
+            "case": "Nom",
+            "form": "район",
+            "ending": "—",
+            "function": "словарная форма, подлежащее: «кто? что?»"
+          },
+          {
+            "case": "Gen",
+            "form": "районы",
+            "ending": "-ы",
+            "function": "принадлежность: «чей? чего?»"
+          },
+          {
+            "case": "All",
+            "form": "районмӕ",
+            "ending": "-мӕ",
+            "function": "направление: «к, в (куда)»"
+          },
+          {
+            "case": "Abl",
+            "form": "районтӕй",
+            "ending": "-ӕй",
+            "function": "источник/средство: «от, из, чем?»"
+          },
+          {
+            "case": "Sup",
+            "form": "районыл",
+            "ending": "-ыл",
+            "function": "на поверхности: «на (ком/чём)»"
+          },
+          {
+            "case": "Com",
+            "form": "районимӕ",
+            "ending": "-имӕ",
+            "function": "совместность: «с (кем)»"
+          }
+        ],
+        "distractor_pool": [
+          {
+            "lemma": "мыггаг",
+            "trans_ru": "род, фамилия"
+          },
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "селение"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "центр",
+            "trans_ru": "центр"
+          },
+          {
+            "lemma": "облӕст",
+            "trans_ru": "область"
+          },
+          {
+            "lemma": "адӕм",
+            "trans_ru": "народ, люди; население"
+          },
+          {
+            "lemma": "сахар",
+            "trans_ru": "город"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "цӕугӕдон",
+            "trans_ru": "река"
+          },
+          {
+            "lemma": "литературӕ",
+            "trans_ru": "литература"
+          },
+          {
+            "lemma": "хох",
+            "trans_ru": "гора"
+          }
+        ]
+      },
+      {
+        "id": "b1_05",
+        "lemma": "мыггаг",
+        "pos": "NOUN",
+        "freq": 5838,
+        "trans_ru": "род, фамилия",
+        "paradigm": [
+          {
+            "case": "Nom",
+            "form": "мыггаг",
+            "ending": "—",
+            "function": "словарная форма, подлежащее: «кто? что?»"
+          },
+          {
+            "case": "Gen",
+            "form": "мыггӕгты",
+            "ending": "-ы",
+            "function": "принадлежность: «чей? чего?»"
+          },
+          {
+            "case": "Dat",
+            "form": "мыггӕгтӕн",
+            "ending": "-ӕн",
+            "function": "адресат: «кому?»"
+          },
+          {
+            "case": "All",
+            "form": "мыггагмӕ",
+            "ending": "-мӕ",
+            "function": "направление: «к, в (куда)»"
+          },
+          {
+            "case": "Abl",
+            "form": "мыггагӕй",
+            "ending": "-ӕй",
+            "function": "источник/средство: «от, из, чем?»"
+          },
+          {
+            "case": "Sup",
+            "form": "мыггагыл",
+            "ending": "-ыл",
+            "function": "на поверхности: «на (ком/чём)»"
+          },
+          {
+            "case": "Com",
+            "form": "мыггагимӕ",
+            "ending": "-имӕ",
+            "function": "совместность: «с (кем)»"
+          },
+          {
+            "case": "Equ",
+            "form": "мыггӕгтау",
+            "ending": "-ау",
+            "function": "уподобление: «как, подобно»"
+          }
+        ],
+        "distractor_pool": [
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "селение"
+          },
+          {
+            "lemma": "район",
+            "trans_ru": "район"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык (анат., лингв.); жало; наконечник (от пояса)"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "центр",
+            "trans_ru": "центр"
+          },
+          {
+            "lemma": "облӕст",
+            "trans_ru": "область"
+          },
+          {
+            "lemma": "адӕм",
+            "trans_ru": "народ, люди; население"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "цӕугӕдон",
+            "trans_ru": "река"
+          },
+          {
+            "lemma": "литературӕ",
+            "trans_ru": "литература"
+          },
+          {
+            "lemma": "хох",
+            "trans_ru": "гора"
+          },
+          {
+            "lemma": "фыццаг",
+            "trans_ru": "начало"
+          }
+        ]
+      }
+    ],
+    "exercises": [
+      {
+        "type": "rule_card",
+        "case": "Nom",
+        "ending": "—",
+        "function": "словарная форма, подлежащее: «кто? что?»",
+        "corpus_freq": 187139,
+        "example": "Дзӕуджыхъӕу, дыгур.",
+        "example_form": "дыгур"
+      },
+      {
+        "type": "rule_card",
+        "case": "Gen",
+        "ending": "-ы",
+        "function": "принадлежность: «чей? чего?»",
+        "corpus_freq": 84916,
+        "example": "1904-ӕм азы 5 (18) августы.",
+        "example_form": "азы"
+      },
+      {
+        "type": "rule_card",
+        "case": "Abl",
+        "ending": "-ӕй",
+        "function": "источник/средство: «от, из, чем?»",
+        "corpus_freq": 10885,
+        "example": "Куырттаты комӕй рацӕуӕг.",
+        "example_form": "комӕй"
+      },
+      {
+        "type": "rule_card",
+        "case": "All",
+        "ending": "-мӕ",
+        "function": "направление: «к, в (куда)»",
+        "corpus_freq": 9968,
+        "example": "Сахармӕ ввахс стыр ӕфсӕддон аэродром.",
+        "example_form": "Сахармӕ"
+      },
+      {
+        "type": "rule_card",
+        "case": "Sup",
+        "ending": "-ыл",
+        "function": "на поверхности: «на (ком/чём)»",
+        "corpus_freq": 6769,
+        "example": "Уӕлладжыры комыл — Туалтӕм.",
+        "example_form": "комыл"
+      },
+      {
+        "type": "rule_card",
+        "case": "Com",
+        "ending": "-имӕ",
+        "function": "совместность: «с (кем)»",
+        "corpus_freq": 1408,
+        "example": "1907 — Бутаты Фатимӕ, физик.",
+        "example_form": "Фатимӕ"
+      },
+      {
+        "type": "rule_card",
+        "case": "Dat",
+        "ending": "-ӕн",
+        "function": "адресат: «кому?»",
+        "corpus_freq": 970,
+        "example": "Уыцы ӕвзӕгтӕн та ис 2 мин диалекты бӕрц.",
+        "example_form": "ӕвзӕгтӕн"
+      },
+      {
+        "type": "rule_card",
+        "case": "Equ",
+        "ending": "-ау",
+        "function": "уподобление: «как, подобно»",
+        "corpus_freq": 343,
+        "example": "Адӕймаджы цард уалдзыгон дидинӕгау у.",
+        "example_form": "дидинӕгау"
+      },
+      {
+        "type": "translate_word",
+        "word_id": "b1_01",
+        "word": "аз",
+        "answer": "год"
+      },
+      {
+        "type": "match_case",
+        "word_id": "b1_01",
+        "lemma": "аз",
+        "pairs": [
+          {
+            "form": "аз",
+            "case": "Nom"
+          },
+          {
+            "form": "азы",
+            "case": "Gen"
+          },
+          {
+            "form": "азтӕн",
+            "case": "Dat"
+          },
+          {
+            "form": "азмӕ",
+            "case": "All"
+          },
+          {
+            "form": "азӕй",
+            "case": "Abl"
+          },
+          {
+            "form": "азыл",
+            "case": "Sup"
+          },
+          {
+            "form": "азтимӕ",
+            "case": "Com"
+          },
+          {
+            "form": "азтау",
+            "case": "Equ"
+          }
+        ]
+      },
+      {
+        "type": "translate_word",
+        "word_id": "b1_02",
+        "word": "фиппаинаг",
+        "answer": "оговорка, примечание"
+      },
+      {
+        "type": "match_case",
+        "word_id": "b1_02",
+        "lemma": "фиппаинаг",
+        "pairs": [
+          {
+            "form": "Фиппаинӕгтӕ",
+            "case": "Nom"
+          },
+          {
+            "form": "фиппаинӕгты",
+            "case": "Gen"
+          },
+          {
+            "form": "фиппаинӕгтӕм",
+            "case": "All"
+          },
+          {
+            "form": "фиппаинӕгтӕй",
+            "case": "Abl"
+          },
+          {
+            "form": "фиппаинӕгтыл",
+            "case": "Sup"
+          }
+        ]
+      },
+      {
+        "type": "translate_word",
+        "word_id": "b1_03",
+        "word": "сахар",
+        "answer": "город"
+      },
+      {
+        "type": "match_case",
+        "word_id": "b1_03",
+        "lemma": "сахар",
+        "pairs": [
+          {
+            "form": "сахар",
+            "case": "Nom"
+          },
+          {
+            "form": "сахары",
+            "case": "Gen"
+          },
+          {
+            "form": "сахартӕн",
+            "case": "Dat"
+          },
+          {
+            "form": "сахармӕ",
+            "case": "All"
+          },
+          {
+            "form": "сахартӕй",
+            "case": "Abl"
+          },
+          {
+            "form": "сахарыл",
+            "case": "Sup"
+          }
+        ]
+      },
+      {
+        "type": "translate_word",
+        "word_id": "b1_04",
+        "word": "район",
+        "answer": "район"
+      },
+      {
+        "type": "match_case",
+        "word_id": "b1_04",
+        "lemma": "район",
+        "pairs": [
+          {
+            "form": "район",
+            "case": "Nom"
+          },
+          {
+            "form": "районы",
+            "case": "Gen"
+          },
+          {
+            "form": "районмӕ",
+            "case": "All"
+          },
+          {
+            "form": "районтӕй",
+            "case": "Abl"
+          },
+          {
+            "form": "районыл",
+            "case": "Sup"
+          },
+          {
+            "form": "районимӕ",
+            "case": "Com"
+          }
+        ]
+      },
+      {
+        "type": "translate_word",
+        "word_id": "b1_05",
+        "word": "мыггаг",
+        "answer": "род, фамилия"
+      },
+      {
+        "type": "match_case",
+        "word_id": "b1_05",
+        "lemma": "мыггаг",
+        "pairs": [
+          {
+            "form": "мыггаг",
+            "case": "Nom"
+          },
+          {
+            "form": "мыггӕгты",
+            "case": "Gen"
+          },
+          {
+            "form": "мыггӕгтӕн",
+            "case": "Dat"
+          },
+          {
+            "form": "мыггагмӕ",
+            "case": "All"
+          },
+          {
+            "form": "мыггагӕй",
+            "case": "Abl"
+          },
+          {
+            "form": "мыггагыл",
+            "case": "Sup"
+          },
+          {
+            "form": "мыггагимӕ",
+            "case": "Com"
+          },
+          {
+            "form": "мыггӕгтау",
+            "case": "Equ"
+          }
+        ]
+      },
+      {
+        "type": "choose_case",
+        "word": "Категори",
+        "answer": "Nom",
+        "answer_ru": "словарная форма, подлежащее",
+        "options": [
+          "Gen",
+          "Dat",
+          "All",
+          "Nom"
+        ],
+        "needs_validation": true
+      },
+      {
+        "type": "choose_case",
+        "word": "азы",
+        "answer": "Gen",
+        "answer_ru": "принадлежность",
+        "options": [
+          "Nom",
+          "Dat",
+          "All",
+          "Gen"
+        ],
+        "needs_validation": true
+      },
+      {
+        "type": "choose_case",
+        "word": "бинонтӕн",
+        "answer": "Dat",
+        "answer_ru": "адресат",
+        "options": [
+          "Nom",
+          "Gen",
+          "All",
+          "Dat"
+        ],
+        "needs_validation": true
+      },
+      {
+        "type": "choose_case",
+        "word": "алфавитмӕ",
+        "answer": "All",
+        "answer_ru": "направление",
+        "options": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "All"
+        ],
+        "needs_validation": true
+      },
+      {
+        "type": "choose_case",
+        "word": "азӕй",
+        "answer": "Abl",
+        "answer_ru": "источник/средство",
+        "options": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Abl"
+        ],
+        "needs_validation": true
+      },
+      {
+        "type": "choose_case",
+        "word": "номыл",
+        "answer": "Sup",
+        "answer_ru": "на поверхности",
+        "options": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Sup"
+        ],
+        "needs_validation": true
+      },
+      {
+        "type": "choose_case",
+        "word": "Фыдыбӕстӕимӕ",
+        "answer": "Com",
+        "answer_ru": "совместность",
+        "options": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Com"
+        ],
+        "needs_validation": true
+      },
+      {
+        "type": "choose_case",
+        "word": "уацау",
+        "answer": "Equ",
+        "answer_ru": "уподобление",
+        "options": [
+          "Nom",
+          "Gen",
+          "Dat",
+          "Equ"
+        ],
+        "needs_validation": true
+      }
+    ]
+  }
+}
