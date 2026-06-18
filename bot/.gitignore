@@ -1,0 +1,9 @@
+.env
+bin/
+dist/
+tmp/
+coverage.out
+*.log
+*.exe
+
+.pytest_cache/

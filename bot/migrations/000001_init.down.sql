@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS user_level_sessions;
+DROP TABLE IF EXISTS user_exercise_attempts;
+DROP TABLE IF EXISTS user_level_progress;
+DROP TABLE IF EXISTS translations;
+DROP TABLE IF EXISTS word_forms;
+DROP TABLE IF EXISTS lexemes;
+DROP TABLE IF EXISTS exercises;
+DROP TABLE IF EXISTS levels;
+DROP TABLE IF EXISTS topics;
+DROP TABLE IF EXISTS users;

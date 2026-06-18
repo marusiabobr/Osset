@@ -1,0 +1,554 @@
+{
+  "slug": "topic_03_level_01",
+  "topic_slug": "topic_03_home",
+  "title_ru": "Дом и быт — уровень 1",
+  "sort_order": 1,
+  "exercises": [
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«хӕдзар» — дом\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "хӕдзар",
+        "trans_ru": "дом",
+        "word_id": "t3_01",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 1
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«дуар» — дверь\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "дуар",
+        "trans_ru": "дверь",
+        "word_id": "t3_02",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 2
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«фынг» — стол\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "фынг",
+        "trans_ru": "стол",
+        "word_id": "t3_03",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 3
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«кӕрт» — двор\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "кӕрт",
+        "trans_ru": "двор",
+        "word_id": "t3_04",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 4
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«чиныг» — книга\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "чиныг",
+        "trans_ru": "книга",
+        "word_id": "t3_05",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 5
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«тӕбӕгъ» — тарелка\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "тӕбӕгъ",
+        "trans_ru": "тарелка",
+        "word_id": "t3_06",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 6
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «хӕдзар».",
+        "accepted_literals": [
+          "дом"
+        ],
+        "word_id": "t3_01",
+        "word": "хӕдзар",
+        "distractor_pool": [
+          {
+            "lemma": "мад",
+            "trans_ru": "мать"
+          },
+          {
+            "lemma": "куывд",
+            "trans_ru": "пир, праздник"
+          },
+          {
+            "lemma": "дон",
+            "trans_ru": "вода; река"
+          },
+          {
+            "lemma": "ныхас",
+            "trans_ru": "слово; речь"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "село"
+          },
+          {
+            "lemma": "къуыри",
+            "trans_ru": "неделя"
+          },
+          {
+            "lemma": "кӕрт",
+            "trans_ru": "двор"
+          },
+          {
+            "lemma": "заман",
+            "trans_ru": "время, эпоха"
+          },
+          {
+            "lemma": "сывӕллон",
+            "trans_ru": "ребёнок"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "фыд",
+            "trans_ru": "отец"
+          }
+        ]
+      },
+      "sort_order": 7
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «дуар».",
+        "accepted_literals": [
+          "дверь"
+        ],
+        "word_id": "t3_02",
+        "word": "дуар",
+        "distractor_pool": [
+          {
+            "lemma": "кӕрт",
+            "trans_ru": "двор"
+          },
+          {
+            "lemma": "сывӕллон",
+            "trans_ru": "ребёнок"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "сахат",
+            "trans_ru": "час"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "фыд",
+            "trans_ru": "отец"
+          },
+          {
+            "lemma": "къуыри",
+            "trans_ru": "неделя"
+          },
+          {
+            "lemma": "лӕг",
+            "trans_ru": "мужчина; человек"
+          },
+          {
+            "lemma": "тӕбӕгъ",
+            "trans_ru": "тарелка"
+          },
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "село"
+          },
+          {
+            "lemma": "мад",
+            "trans_ru": "мать"
+          },
+          {
+            "lemma": "хох",
+            "trans_ru": "гора"
+          }
+        ]
+      },
+      "sort_order": 8
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «фынг».",
+        "accepted_literals": [
+          "стол"
+        ],
+        "word_id": "t3_03",
+        "word": "фынг",
+        "distractor_pool": [
+          {
+            "lemma": "кӕрт",
+            "trans_ru": "двор"
+          },
+          {
+            "lemma": "чиныг",
+            "trans_ru": "книга"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "куывд",
+            "trans_ru": "пир, праздник"
+          },
+          {
+            "lemma": "хъӕд",
+            "trans_ru": "лес"
+          },
+          {
+            "lemma": "ныхас",
+            "trans_ru": "слово; речь"
+          },
+          {
+            "lemma": "лӕг",
+            "trans_ru": "мужчина; человек"
+          },
+          {
+            "lemma": "чызг",
+            "trans_ru": "девочка, дочь"
+          },
+          {
+            "lemma": "заман",
+            "trans_ru": "время, эпоха"
+          },
+          {
+            "lemma": "къуыри",
+            "trans_ru": "неделя"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "райсом",
+            "trans_ru": "утро"
+          }
+        ]
+      },
+      "sort_order": 9
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «кӕрт».",
+        "accepted_literals": [
+          "двор"
+        ],
+        "word_id": "t3_04",
+        "word": "кӕрт",
+        "distractor_pool": [
+          {
+            "lemma": "фынг",
+            "trans_ru": "стол"
+          },
+          {
+            "lemma": "сахат",
+            "trans_ru": "час"
+          },
+          {
+            "lemma": "фыд",
+            "trans_ru": "отец"
+          },
+          {
+            "lemma": "куывд",
+            "trans_ru": "пир, праздник"
+          },
+          {
+            "lemma": "хабар",
+            "trans_ru": "новость, известие"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "сывӕллон",
+            "trans_ru": "ребёнок"
+          },
+          {
+            "lemma": "ныхас",
+            "trans_ru": "слово; речь"
+          },
+          {
+            "lemma": "чызг",
+            "trans_ru": "девочка, дочь"
+          },
+          {
+            "lemma": "райсом",
+            "trans_ru": "утро"
+          },
+          {
+            "lemma": "ӕгъдау",
+            "trans_ru": "обычай"
+          },
+          {
+            "lemma": "дон",
+            "trans_ru": "вода; река"
+          }
+        ]
+      },
+      "sort_order": 10
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «чиныг».",
+        "accepted_literals": [
+          "книга"
+        ],
+        "word_id": "t3_05",
+        "word": "чиныг",
+        "distractor_pool": [
+          {
+            "lemma": "ныхас",
+            "trans_ru": "слово; речь"
+          },
+          {
+            "lemma": "хабар",
+            "trans_ru": "новость, известие"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "куывд",
+            "trans_ru": "пир, праздник"
+          },
+          {
+            "lemma": "чызг",
+            "trans_ru": "девочка, дочь"
+          },
+          {
+            "lemma": "хох",
+            "trans_ru": "гора"
+          },
+          {
+            "lemma": "фыд",
+            "trans_ru": "отец"
+          },
+          {
+            "lemma": "ӕгъдау",
+            "trans_ru": "обычай"
+          },
+          {
+            "lemma": "хъӕд",
+            "trans_ru": "лес"
+          },
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "село"
+          },
+          {
+            "lemma": "дон",
+            "trans_ru": "вода; река"
+          },
+          {
+            "lemma": "бӕлас",
+            "trans_ru": "дерево"
+          }
+        ]
+      },
+      "sort_order": 11
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «тӕбӕгъ».",
+        "accepted_literals": [
+          "тарелка"
+        ],
+        "word_id": "t3_06",
+        "word": "тӕбӕгъ",
+        "distractor_pool": [
+          {
+            "lemma": "сывӕллон",
+            "trans_ru": "ребёнок"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "ныхас",
+            "trans_ru": "слово; речь"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "лӕппу",
+            "trans_ru": "мальчик"
+          },
+          {
+            "lemma": "хъӕд",
+            "trans_ru": "лес"
+          },
+          {
+            "lemma": "дуар",
+            "trans_ru": "дверь"
+          },
+          {
+            "lemma": "куывд",
+            "trans_ru": "пир, праздник"
+          },
+          {
+            "lemma": "кӕрт",
+            "trans_ru": "двор"
+          },
+          {
+            "lemma": "дон",
+            "trans_ru": "вода; река"
+          },
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "село"
+          },
+          {
+            "lemma": "ӕгъдау",
+            "trans_ru": "обычай"
+          }
+        ]
+      },
+      "sort_order": 12
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Слово «хӕдзар». Какой падеж у формы «хӕдзары»?\nПодсказка: принадлежность.\nВведите падеж.",
+        "accepted_literals": [
+          "Родительный"
+        ],
+        "options": [
+          "Дательный",
+          "Направительный",
+          "Уподобительный",
+          "Родительный"
+        ],
+        "word_id": "t3_01",
+        "form": "хӕдзары"
+      },
+      "sort_order": 13
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Слово «хӕдзар». Какой падеж у формы «хӕдзарӕн»?\nПодсказка: адресат «кому?».\nВведите падеж.",
+        "accepted_literals": [
+          "Дательный"
+        ],
+        "options": [
+          "Дательный",
+          "Ine",
+          "Направительный",
+          "Именительный"
+        ],
+        "word_id": "t3_01",
+        "form": "хӕдзарӕн"
+      },
+      "sort_order": 14
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Слово «хӕдзар». Какой падеж у формы «хӕдзармӕ»?\nПодсказка: направление «куда?».\nВведите падеж.",
+        "accepted_literals": [
+          "Направительный"
+        ],
+        "options": [
+          "Направительный",
+          "Именительный",
+          "Дательный",
+          "Внешне-местный"
+        ],
+        "word_id": "t3_01",
+        "form": "хӕдзармӕ"
+      },
+      "sort_order": 15
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Слово «хӕдзар». Какой падеж у формы «хӕдзарӕй»?\nПодсказка: источник «откуда/чем?».\nВведите падеж.",
+        "accepted_literals": [
+          "Отложительный"
+        ],
+        "options": [
+          "Отложительный",
+          "Ine",
+          "Дательный",
+          "Совместный"
+        ],
+        "word_id": "t3_01",
+        "form": "хӕдзарӕй"
+      },
+      "sort_order": 16
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Слово «хӕдзар». Какой падеж у формы «хӕдзарыл»?\nПодсказка: на поверхности «на чём?».\nВведите падеж.",
+        "accepted_literals": [
+          "Внешне-местный"
+        ],
+        "options": [
+          "Отложительный",
+          "Внешне-местный",
+          "Именительный",
+          "Ine"
+        ],
+        "word_id": "t3_01",
+        "form": "хӕдзарыл"
+      },
+      "sort_order": 17
+    }
+  ]
+}

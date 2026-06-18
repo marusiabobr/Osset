@@ -1,0 +1,351 @@
+{
+  "slug": "topic_01_level_03",
+  "topic_slug": "topic_01_cases",
+  "title_ru": "Введение в падежи — уровень 3",
+  "sort_order": 3,
+  "exercises": [
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«район» — район\nНажмите «Далее», когда запомните.",
+        "lemma": "район",
+        "trans_ru": "район",
+        "word_id": "b1_04",
+        "audio": "b1_04.ogg",
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 1
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «район».",
+        "accepted_literals": [
+          "район"
+        ],
+        "word_id": "b1_04",
+        "word": "район",
+        "distractor_pool": [
+          {
+            "lemma": "мыггаг",
+            "trans_ru": "фамилия"
+          },
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "селение"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "центр",
+            "trans_ru": "центр"
+          },
+          {
+            "lemma": "облӕст",
+            "trans_ru": "область"
+          },
+          {
+            "lemma": "адӕм",
+            "trans_ru": "люди"
+          },
+          {
+            "lemma": "сахар",
+            "trans_ru": "город"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "цӕугӕдон",
+            "trans_ru": "река"
+          },
+          {
+            "lemma": "литературӕ",
+            "trans_ru": "литература"
+          },
+          {
+            "lemma": "хох",
+            "trans_ru": "гора"
+          }
+        ]
+      },
+      "sort_order": 2
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «район»: укажите падеж формы «район».\nВведите падеж.",
+        "accepted_literals": [
+          "Именительный"
+        ],
+        "options": [
+          "Родительный",
+          "Именительный",
+          "Направительный",
+          "Совместный"
+        ],
+        "word_id": "b1_04",
+        "form": "район",
+        "match_case": true,
+        "match_index": 0,
+        "match_total": 6
+      },
+      "sort_order": 3
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «район»: укажите падеж формы «районы».\nВведите падеж.",
+        "accepted_literals": [
+          "Родительный"
+        ],
+        "options": [
+          "Родительный",
+          "Отложительный",
+          "Именительный",
+          "Внешне-местный"
+        ],
+        "word_id": "b1_04",
+        "form": "районы",
+        "match_case": true,
+        "match_index": 1,
+        "match_total": 6
+      },
+      "sort_order": 4
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «район»: укажите падеж формы «районмӕ».\nВведите падеж.",
+        "accepted_literals": [
+          "Направительный"
+        ],
+        "options": [
+          "Совместный",
+          "Отложительный",
+          "Внешне-местный",
+          "Направительный"
+        ],
+        "word_id": "b1_04",
+        "form": "районмӕ",
+        "match_case": true,
+        "match_index": 2,
+        "match_total": 6
+      },
+      "sort_order": 5
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «район»: укажите падеж формы «районӕй».\nВведите падеж.",
+        "accepted_literals": [
+          "Отложительный"
+        ],
+        "options": [
+          "Родительный",
+          "Именительный",
+          "Направительный",
+          "Отложительный"
+        ],
+        "word_id": "b1_04",
+        "form": "районӕй",
+        "match_case": true,
+        "match_index": 3,
+        "match_total": 6
+      },
+      "sort_order": 6
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «район»: укажите падеж формы «районыл».\nВведите падеж.",
+        "accepted_literals": [
+          "Внешне-местный"
+        ],
+        "options": [
+          "Отложительный",
+          "Направительный",
+          "Именительный",
+          "Внешне-местный"
+        ],
+        "word_id": "b1_04",
+        "form": "районыл",
+        "match_case": true,
+        "match_index": 4,
+        "match_total": 6
+      },
+      "sort_order": 7
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «район»: укажите падеж формы «районимӕ».\nВведите падеж.",
+        "accepted_literals": [
+          "Совместный"
+        ],
+        "options": [
+          "Внешне-местный",
+          "Совместный",
+          "Отложительный",
+          "Направительный"
+        ],
+        "word_id": "b1_04",
+        "form": "районимӕ",
+        "match_case": true,
+        "match_index": 5,
+        "match_total": 6
+      },
+      "sort_order": 8
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«мыггаг» — фамилия\nНажмите «Далее», когда запомните.",
+        "lemma": "мыггаг",
+        "trans_ru": "фамилия",
+        "word_id": "b1_05",
+        "audio": "b1_05.ogg",
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 9
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «мыггаг».",
+        "accepted_literals": [
+          "род",
+          "род, фамилия",
+          "фамилия"
+        ],
+        "word_id": "b1_05",
+        "word": "мыггаг",
+        "distractor_pool": [
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "селение"
+          },
+          {
+            "lemma": "район",
+            "trans_ru": "район"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "центр",
+            "trans_ru": "центр"
+          },
+          {
+            "lemma": "облӕст",
+            "trans_ru": "область"
+          },
+          {
+            "lemma": "адӕм",
+            "trans_ru": "народ"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "цӕугӕдон",
+            "trans_ru": "река"
+          },
+          {
+            "lemma": "литературӕ",
+            "trans_ru": "литература"
+          },
+          {
+            "lemma": "хох",
+            "trans_ru": "гора"
+          },
+          {
+            "lemma": "фыццаг",
+            "trans_ru": "начало"
+          }
+        ]
+      },
+      "sort_order": 10
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «мыггаг»: укажите падеж формы «мыггаг».\nВведите падеж.",
+        "accepted_literals": [
+          "Именительный"
+        ],
+        "options": [
+          "Совместный",
+          "Внешне-местный",
+          "Направительный",
+          "Именительный"
+        ],
+        "word_id": "b1_05",
+        "form": "мыггаг",
+        "match_case": true,
+        "match_index": 0,
+        "match_total": 8
+      },
+      "sort_order": 11
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «мыггаг»: укажите падеж формы «мыггӕгы».\nВведите падеж.",
+        "accepted_literals": [
+          "Родительный"
+        ],
+        "options": [
+          "Именительный",
+          "Дательный",
+          "Родительный",
+          "Совместный"
+        ],
+        "word_id": "b1_05",
+        "form": "мыггӕгы",
+        "match_case": true,
+        "match_index": 1,
+        "match_total": 8
+      },
+      "sort_order": 12
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «мыггаг»: укажите падеж формы «мыггӕгӕн».\nВведите падеж.",
+        "accepted_literals": [
+          "Дательный"
+        ],
+        "options": [
+          "Уподобительный",
+          "Направительный",
+          "Внешне-местный",
+          "Дательный"
+        ],
+        "word_id": "b1_05",
+        "form": "мыггӕгӕн",
+        "match_case": true,
+        "match_index": 2,
+        "match_total": 8
+      },
+      "sort_order": 13
+    }
+  ]
+}

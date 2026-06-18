@@ -1,0 +1,311 @@
+{
+  "slug": "topic_01_level_02",
+  "topic_slug": "topic_01_cases",
+  "title_ru": "Введение в падежи — уровень 2",
+  "sort_order": 2,
+  "exercises": [
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «аз»: укажите падеж формы «азмӕ».\nВведите падеж.",
+        "accepted_literals": [
+          "Направительный"
+        ],
+        "options": [
+          "Уподобительный",
+          "Совместный",
+          "Родительный",
+          "Направительный"
+        ],
+        "word_id": "b1_01",
+        "form": "азмӕ",
+        "match_case": true,
+        "match_index": 3,
+        "match_total": 8
+      },
+      "sort_order": 1
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «аз»: укажите падеж формы «азӕй».\nВведите падеж.",
+        "accepted_literals": [
+          "Отложительный"
+        ],
+        "options": [
+          "Отложительный",
+          "Уподобительный",
+          "Именительный",
+          "Направительный"
+        ],
+        "word_id": "b1_01",
+        "form": "азӕй",
+        "match_case": true,
+        "match_index": 4,
+        "match_total": 8
+      },
+      "sort_order": 2
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «аз»: укажите падеж формы «азыл».\nВведите падеж.",
+        "accepted_literals": [
+          "Внешне-местный"
+        ],
+        "options": [
+          "Родительный",
+          "Уподобительный",
+          "Направительный",
+          "Внешне-местный"
+        ],
+        "word_id": "b1_01",
+        "form": "азыл",
+        "match_case": true,
+        "match_index": 5,
+        "match_total": 8
+      },
+      "sort_order": 3
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «аз»: укажите падеж формы «азтимӕ».\nВведите падеж.",
+        "accepted_literals": [
+          "Совместный"
+        ],
+        "options": [
+          "Внешне-местный",
+          "Совместный",
+          "Дательный",
+          "Родительный"
+        ],
+        "word_id": "b1_01",
+        "form": "азтимӕ",
+        "match_case": true,
+        "match_index": 6,
+        "match_total": 8
+      },
+      "sort_order": 4
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «аз»: укажите падеж формы «азтау».\nВведите падеж.",
+        "accepted_literals": [
+          "Уподобительный"
+        ],
+        "options": [
+          "Отложительный",
+          "Уподобительный",
+          "Именительный",
+          "Дательный"
+        ],
+        "word_id": "b1_01",
+        "form": "азтау",
+        "match_case": true,
+        "match_index": 7,
+        "match_total": 8
+      },
+      "sort_order": 5
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«сахар» — город\nНажмите «Далее», когда запомните.",
+        "lemma": "сахар",
+        "trans_ru": "город",
+        "word_id": "b1_03",
+        "audio": "b1_03.ogg",
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 6
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «сахар».",
+        "accepted_literals": [
+          "город"
+        ],
+        "word_id": "b1_03",
+        "word": "сахар",
+        "distractor_pool": [
+          {
+            "lemma": "аз",
+            "trans_ru": "год"
+          },
+          {
+            "lemma": "район",
+            "trans_ru": "район"
+          },
+          {
+            "lemma": "мыггаг",
+            "trans_ru": "фамилия"
+          },
+          {
+            "lemma": "хъӕу",
+            "trans_ru": "селение"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "центр",
+            "trans_ru": "центр"
+          },
+          {
+            "lemma": "облӕст",
+            "trans_ru": "область"
+          },
+          {
+            "lemma": "адӕм",
+            "trans_ru": "народ"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "цӕугӕдон",
+            "trans_ru": "река"
+          }
+        ]
+      },
+      "sort_order": 7
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «сахар»: укажите падеж формы «сахар».\nВведите падеж.",
+        "accepted_literals": [
+          "Именительный"
+        ],
+        "options": [
+          "Дательный",
+          "Именительный",
+          "Внешне-местный",
+          "Родительный"
+        ],
+        "word_id": "b1_03",
+        "form": "сахар",
+        "match_case": true,
+        "match_index": 0,
+        "match_total": 6
+      },
+      "sort_order": 8
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «сахар»: укажите падеж формы «сахары».\nВведите падеж.",
+        "accepted_literals": [
+          "Родительный"
+        ],
+        "options": [
+          "Внешне-местный",
+          "Родительный",
+          "Именительный",
+          "Отложительный"
+        ],
+        "word_id": "b1_03",
+        "form": "сахары",
+        "match_case": true,
+        "match_index": 1,
+        "match_total": 6
+      },
+      "sort_order": 9
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «сахар»: укажите падеж формы «сахарӕн».\nВведите падеж.",
+        "accepted_literals": [
+          "Дательный"
+        ],
+        "options": [
+          "Дательный",
+          "Родительный",
+          "Внешне-местный",
+          "Именительный"
+        ],
+        "word_id": "b1_03",
+        "form": "сахарӕн",
+        "match_case": true,
+        "match_index": 2,
+        "match_total": 6
+      },
+      "sort_order": 10
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «сахар»: укажите падеж формы «сахармӕ».\nВведите падеж.",
+        "accepted_literals": [
+          "Направительный"
+        ],
+        "options": [
+          "Отложительный",
+          "Именительный",
+          "Дательный",
+          "Направительный"
+        ],
+        "word_id": "b1_03",
+        "form": "сахармӕ",
+        "match_case": true,
+        "match_index": 3,
+        "match_total": 6
+      },
+      "sort_order": 11
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «сахар»: укажите падеж формы «сахарӕй».\nВведите падеж.",
+        "accepted_literals": [
+          "Отложительный"
+        ],
+        "options": [
+          "Именительный",
+          "Дательный",
+          "Родительный",
+          "Отложительный"
+        ],
+        "word_id": "b1_03",
+        "form": "сахарӕй",
+        "match_case": true,
+        "match_index": 4,
+        "match_total": 6
+      },
+      "sort_order": 12
+    },
+    {
+      "type": "choice",
+      "data": {
+        "prompt": "Парадигма «сахар»: укажите падеж формы «сахарыл».\nВведите падеж.",
+        "accepted_literals": [
+          "Внешне-местный"
+        ],
+        "options": [
+          "Родительный",
+          "Направительный",
+          "Внешне-местный",
+          "Отложительный"
+        ],
+        "word_id": "b1_03",
+        "form": "сахарыл",
+        "match_case": true,
+        "match_index": 5,
+        "match_total": 6
+      },
+      "sort_order": 13
+    }
+  ]
+}

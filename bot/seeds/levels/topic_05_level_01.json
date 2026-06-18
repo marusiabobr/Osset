@@ -1,0 +1,546 @@
+{
+  "slug": "topic_05_level_01",
+  "topic_slug": "topic_05_nature",
+  "title_ru": "Село и природа — уровень 1",
+  "sort_order": 1,
+  "exercises": [
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«хъӕу» — село\nНажмите «Далее», когда запомните.",
+        "lemma": "хъӕу",
+        "trans_ru": "село",
+        "word_id": "t5_01",
+        "audio": "t5_01.ogg",
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 1
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«хох» — гора\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "хох",
+        "trans_ru": "гора",
+        "word_id": "t5_02",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 2
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«дон» — вода; река\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "дон",
+        "trans_ru": "вода; река",
+        "word_id": "t5_03",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 3
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«хъӕд» — лес\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "хъӕд",
+        "trans_ru": "лес",
+        "word_id": "t5_04",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 4
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«бӕлас» — дерево\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "бӕлас",
+        "trans_ru": "дерево",
+        "word_id": "t5_05",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 5
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«фӕндаг» — дорога, путь\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "фӕндаг",
+        "trans_ru": "дорога, путь",
+        "word_id": "t5_06",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 6
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«цӕр» — жить\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "цӕр",
+        "trans_ru": "жить",
+        "word_id": "t5_v01",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 7
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«кус» — работать\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "кус",
+        "trans_ru": "работать",
+        "word_id": "t5_v02",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 8
+    },
+    {
+      "type": "vocab",
+      "data": {
+        "prompt": "📚 Новое слово\n«кӕс» — смотреть\n🔊 (аудио скоро)\nНажмите «Далее», когда запомните.",
+        "lemma": "кӕс",
+        "trans_ru": "смотреть",
+        "word_id": "t5_v03",
+        "audio": null,
+        "accepted_literals": [
+          "далее"
+        ]
+      },
+      "sort_order": 9
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «хъӕу».",
+        "accepted_literals": [
+          "село"
+        ],
+        "word_id": "t5_01",
+        "word": "хъӕу",
+        "distractor_pool": [
+          {
+            "lemma": "тӕбӕгъ",
+            "trans_ru": "тарелка"
+          },
+          {
+            "lemma": "куывд",
+            "trans_ru": "пир, праздник"
+          },
+          {
+            "lemma": "фынг",
+            "trans_ru": "стол"
+          },
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "ныхас",
+            "trans_ru": "слово; речь"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "сывӕллон",
+            "trans_ru": "ребёнок"
+          },
+          {
+            "lemma": "хӕдзар",
+            "trans_ru": "дом"
+          },
+          {
+            "lemma": "мад",
+            "trans_ru": "мать"
+          },
+          {
+            "lemma": "фыд",
+            "trans_ru": "отец"
+          },
+          {
+            "lemma": "хабар",
+            "trans_ru": "новость, известие"
+          },
+          {
+            "lemma": "лӕг",
+            "trans_ru": "мужчина; человек"
+          }
+        ]
+      },
+      "sort_order": 10
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «хох».",
+        "accepted_literals": [
+          "гора"
+        ],
+        "word_id": "t5_02",
+        "word": "хох",
+        "distractor_pool": [
+          {
+            "lemma": "райсом",
+            "trans_ru": "утро"
+          },
+          {
+            "lemma": "хабар",
+            "trans_ru": "новость, известие"
+          },
+          {
+            "lemma": "фынг",
+            "trans_ru": "стол"
+          },
+          {
+            "lemma": "кӕрт",
+            "trans_ru": "двор"
+          },
+          {
+            "lemma": "дуар",
+            "trans_ru": "дверь"
+          },
+          {
+            "lemma": "тӕбӕгъ",
+            "trans_ru": "тарелка"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "ӕхсӕв",
+            "trans_ru": "ночь"
+          },
+          {
+            "lemma": "хъӕд",
+            "trans_ru": "лес"
+          },
+          {
+            "lemma": "фӕндаг",
+            "trans_ru": "дорога, путь"
+          },
+          {
+            "lemma": "бӕлас",
+            "trans_ru": "дерево"
+          },
+          {
+            "lemma": "фыд",
+            "trans_ru": "отец"
+          }
+        ]
+      },
+      "sort_order": 11
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «дон».",
+        "accepted_literals": [
+          "вода",
+          "вода; река",
+          "река"
+        ],
+        "word_id": "t5_03",
+        "word": "дон",
+        "distractor_pool": [
+          {
+            "lemma": "ӕвзаг",
+            "trans_ru": "язык"
+          },
+          {
+            "lemma": "фыд",
+            "trans_ru": "отец"
+          },
+          {
+            "lemma": "чызг",
+            "trans_ru": "девочка, дочь"
+          },
+          {
+            "lemma": "ӕгъдау",
+            "trans_ru": "обычай"
+          },
+          {
+            "lemma": "дуар",
+            "trans_ru": "дверь"
+          },
+          {
+            "lemma": "хъӕд",
+            "trans_ru": "лес"
+          },
+          {
+            "lemma": "хох",
+            "trans_ru": "гора"
+          },
+          {
+            "lemma": "хӕдзар",
+            "trans_ru": "дом"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "хабар",
+            "trans_ru": "новость, известие"
+          },
+          {
+            "lemma": "райсом",
+            "trans_ru": "утро"
+          },
+          {
+            "lemma": "мад",
+            "trans_ru": "мать"
+          }
+        ]
+      },
+      "sort_order": 12
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «хъӕд».",
+        "accepted_literals": [
+          "лес"
+        ],
+        "word_id": "t5_04",
+        "word": "хъӕд",
+        "distractor_pool": [
+          {
+            "lemma": "чызг",
+            "trans_ru": "девочка, дочь"
+          },
+          {
+            "lemma": "куывд",
+            "trans_ru": "пир, праздник"
+          },
+          {
+            "lemma": "бӕлас",
+            "trans_ru": "дерево"
+          },
+          {
+            "lemma": "хӕдзар",
+            "trans_ru": "дом"
+          },
+          {
+            "lemma": "заман",
+            "trans_ru": "время, эпоха"
+          },
+          {
+            "lemma": "фыд",
+            "trans_ru": "отец"
+          },
+          {
+            "lemma": "дуар",
+            "trans_ru": "дверь"
+          },
+          {
+            "lemma": "дон",
+            "trans_ru": "вода; река"
+          },
+          {
+            "lemma": "чиныг",
+            "trans_ru": "книга"
+          },
+          {
+            "lemma": "ӕхсӕв",
+            "trans_ru": "ночь"
+          },
+          {
+            "lemma": "мад",
+            "trans_ru": "мать"
+          },
+          {
+            "lemma": "тӕбӕгъ",
+            "trans_ru": "тарелка"
+          }
+        ]
+      },
+      "sort_order": 13
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «бӕлас».",
+        "accepted_literals": [
+          "дерево"
+        ],
+        "word_id": "t5_05",
+        "word": "бӕлас",
+        "distractor_pool": [
+          {
+            "lemma": "дон",
+            "trans_ru": "вода; река"
+          },
+          {
+            "lemma": "хӕдзар",
+            "trans_ru": "дом"
+          },
+          {
+            "lemma": "ӕхсӕв",
+            "trans_ru": "ночь"
+          },
+          {
+            "lemma": "ном",
+            "trans_ru": "имя"
+          },
+          {
+            "lemma": "хъӕд",
+            "trans_ru": "лес"
+          },
+          {
+            "lemma": "фӕндаг",
+            "trans_ru": "дорога, путь"
+          },
+          {
+            "lemma": "фынг",
+            "trans_ru": "стол"
+          },
+          {
+            "lemma": "кӕрт",
+            "trans_ru": "двор"
+          },
+          {
+            "lemma": "дуар",
+            "trans_ru": "дверь"
+          },
+          {
+            "lemma": "куывд",
+            "trans_ru": "пир, праздник"
+          },
+          {
+            "lemma": "лӕг",
+            "trans_ru": "мужчина; человек"
+          },
+          {
+            "lemma": "мад",
+            "trans_ru": "мать"
+          }
+        ]
+      },
+      "sort_order": 14
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите на русский: «фӕндаг».",
+        "accepted_literals": [
+          "дорога",
+          "дорога, путь",
+          "путь"
+        ],
+        "word_id": "t5_06",
+        "word": "фӕндаг",
+        "distractor_pool": [
+          {
+            "lemma": "къуыри",
+            "trans_ru": "неделя"
+          },
+          {
+            "lemma": "заман",
+            "trans_ru": "время, эпоха"
+          },
+          {
+            "lemma": "мад",
+            "trans_ru": "мать"
+          },
+          {
+            "lemma": "бон",
+            "trans_ru": "день"
+          },
+          {
+            "lemma": "райсом",
+            "trans_ru": "утро"
+          },
+          {
+            "lemma": "дуар",
+            "trans_ru": "дверь"
+          },
+          {
+            "lemma": "лӕппу",
+            "trans_ru": "мальчик"
+          },
+          {
+            "lemma": "чызг",
+            "trans_ru": "девочка, дочь"
+          },
+          {
+            "lemma": "кӕрт",
+            "trans_ru": "двор"
+          },
+          {
+            "lemma": "ныхас",
+            "trans_ru": "слово; речь"
+          },
+          {
+            "lemma": "сывӕллон",
+            "trans_ru": "ребёнок"
+          },
+          {
+            "lemma": "фынг",
+            "trans_ru": "стол"
+          }
+        ]
+      },
+      "sort_order": 15
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите глагол на русский: «цӕр».",
+        "accepted_literals": [
+          "жить"
+        ],
+        "word_id": "t5_v01",
+        "word": "цӕр"
+      },
+      "sort_order": 16
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите глагол на русский: «кус».",
+        "accepted_literals": [
+          "работать"
+        ],
+        "word_id": "t5_v02",
+        "word": "кус"
+      },
+      "sort_order": 17
+    },
+    {
+      "type": "translate_os_ru",
+      "data": {
+        "prompt": "Переведите глагол на русский: «кӕс».",
+        "accepted_literals": [
+          "смотреть"
+        ],
+        "word_id": "t5_v03",
+        "word": "кӕс"
+      },
+      "sort_order": 18
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "slug": "topic_01_cases",
+    "title_ru": "Введение в падежи",
+    "description": "Хауӕнтимӕ зонгӕ кӕнын",
+    "sort_order": 1
+  },
+  {
+    "id": 2,
+    "slug": "topic_02_family",
+    "title_ru": "Семья и люди",
+    "description": "",
+    "sort_order": 2
+  },
+  {
+    "id": 3,
+    "slug": "topic_03_home",
+    "title_ru": "Дом и быт",
+    "description": "",
+    "sort_order": 3
+  },
+  {
+    "id": 4,
+    "slug": "topic_04_time",
+    "title_ru": "Время и день",
+    "description": "",
+    "sort_order": 4
+  },
+  {
+    "id": 5,
+    "slug": "topic_05_nature",
+    "title_ru": "Село и природа",
+    "description": "",
+    "sort_order": 5
+  },
+  {
+    "id": 6,
+    "slug": "topic_06_culture",
+    "title_ru": "Язык и обычай",
+    "description": "",
+    "sort_order": 6
+  }
+]
