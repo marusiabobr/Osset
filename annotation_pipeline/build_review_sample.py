@@ -1,4 +1,5 @@
 """Из авторазмеченного корпуса —> таблица для носителя"""
+import os
 import random
 from conllu import parse_incr
 from openpyxl import Workbook
@@ -6,7 +7,8 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.worksheet.datavalidation import DataValidation
 
 random.seed(42)
-SRC = "/Users/sofiiakasaeva/Desktop/linguistics/corpus_annotated.conllu"
+_DIR = os.path.dirname(os.path.abspath(__file__))
+SRC = os.path.join(_DIR, "corpus_annotated.conllu")
 N_SENT = 120
 
 # падежи
@@ -100,7 +102,6 @@ for i,w in enumerate(widths, start=1):
 ws.freeze_panes = "A2"
 ws.auto_filter.ref = f"A1:M{last}"
 
-out = "/Users/sofiiakasaeva/Desktop/linguistics/review_sample_test.xlsx"
-import os; os.makedirs("/Users/sofiiakasaeva/Desktop/linguistics/", exist_ok=True)
+out = os.path.join(_DIR, "review_sample.xlsx")
 wb.save(out)
 print("предложений в выборке:", len(sample), "строк:", last-1)
